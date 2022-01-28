@@ -1,0 +1,212 @@
+.App {
+  text-align: center;
+  height: 100%;
+  /* color: #999999; */
+  color: white;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.Header {
+  border-bottom: 1px solid #999999;
+  background-color: transparent;
+  width: 100%;
+  position: absolute;
+  padding-top: 20px;
+}
+
+.floatMenuLeft {
+  float: left;
+}
+
+.floatMenuRight {
+  float: right;
+}
+
+.floatDummy {
+  clear: both;
+}
+
+.leftMenuItems {
+  text-align: left;
+  left: 10em;
+}
+
+.rightMenuItems {
+  text-align: right;
+  right: 10em;
+}
+
+.menuItem {
+  display: inline-block;
+  margin-right: 2em;
+  color: white;
+  transition: 0.5s;
+}
+
+.menuItem:hover {
+  color: #727171;
+  cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  /* Hide all menu items except Hamburger Icon and Name at the top left */
+  .rightMenuItems a {
+    display: none;
+  }
+
+  .hamburger {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    margin-right: 2em;
+  }
+
+  .floatMenuRight {
+    float: none;
+  }
+
+  .floatMenuLeft {
+    float: none;
+  }
+
+  .rightMenuItemsExpanded a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.introductionImage {
+  background-image: url("./static/backgrounddark.jpeg");
+  background-size: 100% 100%;
+  min-height: 100vh;
+}
+
+.introductionContent {
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  border-radius: 3px;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  z-index: 2;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  font-size: large;
+}
+
+.introductionContent hr {
+  border: 2px solid #EE4B28;
+  width: 40px;
+  height: 0;
+}
+
+.introductionContent p {
+  color: white;
+}
+
+.introductionContent button {
+  margin-top: 30px;
+  color: white;
+  background-color: #EE4B28;
+  border: none;
+  width: 200px;
+  height: 50px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.introductionContent button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.About {
+  background-color: #EE4B28;
+}
+
+.aboutPhotoDiv {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.About hr {
+  border: 2px solid white;
+  width: 40px;
+  height: 0;
+}
+
+.aboutContent {
+  position: relative;
+  left: 20%;
+  width: 60%;
+  text-align: justify;
+  color: #FBCEC2;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.Experience {
+  background-color: #999999;
+  color: white;
+  padding: 50px;
+}
+
+.experience hr {
+  border: 2px solid #EE4B28;
+  width: 40px;
+  height: 0;
+}
+
+.Skills {
+  color: #999999;
+  padding: 100px;
+}
+
+.Skills hr {
+  border: 2px solid #EE4B28;
+  width: 40px;
+  height: 0;
+}
+
+.Skills ul {
+  list-style-type: none;
+}
+
+.Skills .skill {
+  display: inline-block;
+  width: 20%;
+  margin: 30px;
+  min-width: 200px;
+}
+
+.experienceContent {
+  text-align: justify;
+}
+
+.Contact {
+  padding: 50px;
+  background-color: white;
+  color: #999999;
+}
+
+.Contact hr {
+  border: 2px solid #EE4B28;
+  width: 40px;
+  height: 0;
+}
+
+.contactIcon {
+  margin: 30px;
+  transition: 0.5s;
+}
+
+.contactIcon:hover {
+  box-shadow: 5px 5px #EE4B28;
+}
