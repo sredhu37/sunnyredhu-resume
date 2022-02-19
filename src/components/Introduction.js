@@ -8,7 +8,7 @@ const Introduction = () => {
       <div className='introductionContent'>
         <h1>HI! I'M SUNNY</h1>
         <hr />
-        <p>On top of 6 years of combined experience in the areas of Software Development and DevOps, I have a can-do attitude and a history of quick ramp-up.</p>
+        <p>DevOps Engineer with 6 years of professional experience in designing, deploying and maintaining the cloud infrastructure and applications with security best practices. I am a problem-solver, a team player and always eager to learn new things.</p>
         <a href="#about"><button>ABOUT ME</button></a>
       </div>
     </div>

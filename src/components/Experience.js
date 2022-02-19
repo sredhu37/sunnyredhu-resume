@@ -24,13 +24,14 @@ const Experience = () => {
             <div className='experienceContent'>
               <b>Work</b>
               <ul>
-                <li>Designed and implemented GitOps-based continuous delivery of Jenkins instances on Kubernetes clusters using Fluxcd</li>
-                <li>Wrote Kubernetes operator in Python, for storing the encrypted secrets in git</li>
-                <li>Mentoring colleagues on DevOps culture</li>
+                <li>Designed and implemented GitOps-based continuous delivery of applications on Kubernetes clusters ensuring their high availability</li>
+                <li>Experience in setting up infrastructure as code on GCP using Terraform and Ansible</li>
+                <li>Responsible for infrastructure monitoring and alerting with Prometheus and Grafana</li>
+                <li>Experience with analysis of logs and performing root cause analysis for various issues coming up on daily basis</li>
               </ul>
               <b>Awards</b>
               <ul>
-                <li><b><i>Nokia – Appreciate Excellence Award</i></b> for taking initiative regarding GitOps in the team</li>
+                <li><b><i>Nokia - Excellence Award</i></b> for taking initiative regarding GitOps in the team</li>
               </ul>
             </div>
           </VerticalTimelineElement>
@@ -40,19 +41,20 @@ const Experience = () => {
             date="June 2017 - Jan 2020 & May 2020 - Oct 2020"
             iconStyle={{ background: '#EE4B28', color: '#fff' }}
           >
-            <h3 className="vertical-timeline-element-title"> Developer </h3>
+            <h3 className="vertical-timeline-element-title"> DevOps Engineer </h3>
             <h5 className="vertical-timeline-element-subtitle"> SAP </h5>
             <br />
             <div className='experienceContent'>
               <b>Work</b>
               <ul>
-                <li>Implemented end-to-end customizable CI/CD pipelines for a Scala-based project, which enables commit-based deployment of services to Cloud Foundry. <b><i>Impact:</i></b> Improved deployment rate by 50%</li>
-                <li>Created and maintained Docker images for various applications and services</li>
-                <li>Developed a Github bot using Probot framework, which automates the process of creating and merging pull requests. <b><i>Impact:</i></b> Improved efficiency of developers by 20%</li>
+                <li>Implemented customizable CI/CD pipelines for a project, which enables commit-based deployment of services to cloud</li>
+                <li>Created and maintained container images using Docker</li>
+                <li>Wrote groovy scripts to setup Job DSL within Jenkins</li>
+                <li>Implemented and enhanced scripts developed in Shell and Python to automate mundane tasks</li>
               </ul>
               <b>Awards</b>
               <ul>
-                <li><b><i>SAP Appreciate</i></b> for exceptional performance in setting up CI/CD process for clients</li>
+                <li><b><i>SAP Appreciate Award</i></b> for exceptional performance in setting up CI/CD process for clients</li>
               </ul>
             </div>
           </VerticalTimelineElement>
@@ -67,7 +69,7 @@ const Experience = () => {
             <br />
             <div className='experienceContent'>
               <ul>
-                <li>Responsible for creating a POC using Node.js, Express.js and React.js which then got converted to a full project</li>
+                <li>Responsible for creating a POC using Node.js, Express.js and React.js which converted to a full-time project</li>
                 <li>Responsible for handling Service Request and Customer Request tickets for maintaining the existing application</li>
               </ul>
             </div>

@@ -104,6 +104,7 @@
   border: 2px solid #EE4B28;
   width: 40px;
   height: 0;
+  margin: auto;
 }
 
 .introductionContent p {
@@ -140,6 +141,7 @@
   border: 2px solid white;
   width: 40px;
   height: 0;
+  margin: auto;
 }
 
 .aboutContent {
@@ -162,6 +164,7 @@
   border: 2px solid #EE4B28;
   width: 40px;
   height: 0;
+  margin: auto;
 }
 
 .Skills {
@@ -173,6 +176,7 @@
   border: 2px solid #EE4B28;
   width: 40px;
   height: 0;
+  margin: auto;
 }
 
 .Skills ul {
@@ -200,6 +204,7 @@
   border: 2px solid #EE4B28;
   width: 40px;
   height: 0;
+  margin: auto;
 }
 
 .contactIcon {

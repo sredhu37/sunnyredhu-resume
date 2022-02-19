@@ -13,14 +13,14 @@ const Skills = () => {
       <h4>TOOLS</h4>
       <div>
         <ul>
-          <li className='skill'> Kubernetes application deployment <ProgressBar variant="info" now={80} /></li>
+          <li className='skill'> Kubernetes and Docker <ProgressBar variant="info" now={80} /></li>
           <li className='skill'> GitOps (Flux) <ProgressBar variant="info" now={80} /></li>
           <li className='skill'> Helm <ProgressBar variant="info" now={80} /></li>
-          <li className='skill'> Docker <ProgressBar variant="info" now={80} /></li>
+          <li className='skill'> Monitoring (Prometheus, Grafana) <ProgressBar variant="warning" now={60} /></li>
           <li className='skill'> CI/CD (Jenkins) <ProgressBar variant="info" now={80} /></li>
-          <li className='skill'> Operating Private Cloud <ProgressBar variant="warning" now={60} /></li>
+          <li className='skill'> GCP <ProgressBar variant="warning" now={60} /></li>
           <li className='skill'> Python and Bash scripting <ProgressBar variant="info" now={80} /></li>
-          <li className='skill'> Packer and Ansible <ProgressBar variant="warning" now={60} /></li>
+          <li className='skill'> Terraform and Ansible <ProgressBar variant="warning" now={60} /></li>
         </ul>
       </div>
       <h4>COURSE CERTIFICATIONS</h4>
