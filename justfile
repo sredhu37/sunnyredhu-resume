@@ -4,7 +4,7 @@ _default:
 build TAG="latest":
   #!/usr/bin/env bash
   echo Building image...
-  docker build -t sunnyredhu-resume:{{TAG}} .
+  docker build --platform=linux/amd64 -t sunnyredhu-resume:{{TAG}} .
 
 push TAG="latest":
   #!/usr/bin/env bash
