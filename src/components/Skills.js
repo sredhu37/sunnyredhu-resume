@@ -18,9 +18,9 @@ const Skills = () => {
           <li className='skill'> Helm <ProgressBar variant="info" now={80} /></li>
           <li className='skill'> Monitoring (Prometheus, Grafana) <ProgressBar variant="warning" now={60} /></li>
           <li className='skill'> CI/CD (Jenkins) <ProgressBar variant="info" now={80} /></li>
-          <li className='skill'> GCP <ProgressBar variant="warning" now={60} /></li>
+          <li className='skill'> GCP <ProgressBar variant="info" now={80} /></li>
           <li className='skill'> Python and Bash scripting <ProgressBar variant="info" now={80} /></li>
-          <li className='skill'> Terraform and Ansible <ProgressBar variant="warning" now={60} /></li>
+          <li className='skill'> Terraform <ProgressBar variant="info" now={100} /></li>
         </ul>
       </div>
       <h4>COURSE CERTIFICATIONS</h4>

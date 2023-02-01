@@ -19,10 +19,10 @@ const About = () => {
           After creating Jenkins CI/CD pipelines for about 1 year, I felt the need to understand how Jenkins as a Service works in Kubernetes.
         </p>
         <p>
-          Currently, I deploy applications on Kubernetes clusters set up in public cloud.
+          Currently, I deploy containerized applications on Kubernetes clusters and cloud run, and also maintain the infrastructure on GCP.
         </p>
         <p>
-          Apart from work, I love to play cricket with my 3 year old son and hum classic Bollywood songs while working.
+          Apart from work, I love to play cricket with my 4 year old son and hum classic Bollywood songs while working.
         </p>
       </div>
     </div>

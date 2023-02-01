@@ -11,11 +11,33 @@ const Experience = () => {
       </div>
       <div>
         <VerticalTimeline>
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: '#EE4B28', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #EE4B28' }}
+            date="July 2022 - Present"
+            iconStyle={{ background: '#EE4B28', color: '#fff' }}
+          >
+            <h3 className="vertical-timeline-element-title"> Site Reliability Engineer </h3>
+            <h5 className="vertical-timeline-element-subtitle"> Trivago </h5>
+            <br />
+            <div className='experienceContent'>
+              <b>Work</b>
+              <ul>
+                <li>Implemented SLOs based alerting and dashboards</li>
+                <li>Secured GCP Load Balancers for the cloudrun and kubernetes based, user facing products</li>
+              </ul>
+              <b>Certifications</b>
+              <ul>
+                <li><b><i>Google certified - Cloud Engineer</i></b></li>
+              </ul>
+            </div>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#EE4B28', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #EE4B28' }}
-            date="Oct 2020 - Present"
+            date="Oct 2020 - June 2022"
             iconStyle={{ background: '#EE4B28', color: '#fff' }}
           >
             <h3 className="vertical-timeline-element-title"> SCM CI Expert </h3>
